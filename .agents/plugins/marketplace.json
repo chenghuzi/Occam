@@ -1,0 +1,21 @@
+{
+  "name": "occam",
+  "interface": {
+    "displayName": "Occam"
+  },
+  "plugins": [
+    {
+      "name": "occam",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/chenghuzi/Occam.git",
+        "ref": "master"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

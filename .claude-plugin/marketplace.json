@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "occam",
+  "description": "Adaptive minimalism for coding agents: smallest correct approach, engineering and research aware.",
+  "owner": {
+    "name": "Hz",
+    "url": "https://github.com/chenghuzi"
+  },
+  "plugins": [
+    {
+      "name": "occam",
+      "description": "Use the smallest correct implementation while preserving engineering safety and research inspectability.",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}

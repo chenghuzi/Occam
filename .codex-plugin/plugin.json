@@ -1,0 +1,29 @@
+{
+  "name": "occam",
+  "version": "0.1.0",
+  "description": "Adaptive minimalism for engineering and research development.",
+  "author": {
+    "name": "Hz",
+    "url": "https://github.com/chenghuzi"
+  },
+  "homepage": "https://github.com/chenghuzi/Occam",
+  "repository": "https://github.com/chenghuzi/Occam",
+  "license": "MIT",
+  "keywords": ["minimalism", "yagni", "engineering", "research", "agent-skills"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Occam",
+    "shortDescription": "Smallest correct approach",
+    "longDescription": "Adaptive minimalism for coding agents. Choose engineering, research, or mixed profile before applying the smallest correct implementation path.",
+    "developerName": "Hz",
+    "category": "Productivity",
+    "capabilities": ["Instructions"],
+    "websiteURL": "https://github.com/chenghuzi/Occam",
+    "defaultPrompt": [
+      "Use Occam mode for this task.",
+      "Find the smallest correct implementation.",
+      "Avoid over-engineering this change."
+    ],
+    "brandColor": "#d7e579"
+  }
+}
